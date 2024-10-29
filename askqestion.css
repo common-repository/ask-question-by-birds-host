@@ -1,0 +1,156 @@
+#askquestion {
+	margin-bottom: 120px;
+}
+
+#askquestion #question-form #question, #newask input#question {
+    width:100%;
+    padding:10px;
+    font-size:20px;
+	margin-bottom:0px;
+}
+
+#newask #questionLabel {
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+#newask #submit {
+    min-width:250px;
+    padding:10px;
+    font-size:20px;
+    font-weight:bold;
+	float:right;
+	margin-top: 10px;
+}
+
+.entry {
+    clear:both;
+}
+
+.entry .question .date {
+    float:right;
+	margin-right: 10px;
+}
+
+#askquestion .askquestion_pagination {
+    clear: both;
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 13px;
+}
+
+#askquestion .askquestion_pagination .current {
+    padding: 6px 9px 5px 9px;
+}
+
+#askquestion .askquestion_pagination span, #askquestion .askquestion_pagination a {
+    display: block;
+    float: left;
+    margin: 2px 2px 2px 0;
+    padding: 6px 9px 5px 9px;
+    width: auto;
+    text-decoration: none;
+}
+
+#askquestion #userdatafields {
+	margin-left: 20px;
+	margin-right: 20px;
+	display: none;
+}
+#asmke #userdatafields:after
+{
+    float:none;
+    clear:both;
+}
+
+
+#askquestion #usernameDiv {
+	margin-top: 5px;
+}
+
+#askquestion #usernameDiv #usernamelabel {
+    float:left;
+	margin-top: 10px;
+}
+
+#askquestion #usernameDiv #usernameinput {
+	width: auto;
+	padding: 0px;
+	margin-left: 90px;
+}
+
+#askquestion #usernameDiv #usernameinput #username {
+	width: 100%;
+}
+
+#askquestion #useremailDiv {
+	margin-top: 5px;
+}
+
+#askquestion #useremailDiv #useremaillabel {
+    float:left;
+	margin-top: 10px;
+}
+
+#askquestion #useremailDiv #useremailinput {
+	width: auto;
+	padding: 0px;
+	margin-left: 90px;
+}
+
+#askquestion #useremailDiv #useremailinput #email {
+	width: 100%;
+}
+
+
+
+#askquestion #emailmsg {
+	color: rgba(153,153,153,1);
+	font-size: small;
+	width: 100%;
+	text-align: right;
+}
+
+#askquestion #extenduserdata {
+	float: left;
+	font-size: smaller;
+	cursor: pointer;
+    margin-top: 5px;
+}
+
+.alert
+{
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.warning {
+
+}
+
+.success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d;
+    width: 100%;
+}
+
+.danger {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+}
+
+#captcha-div {
+    width:100%;
+    clear:both;
+    float:none;
+    display:none;
+}
+
+#recaptcha_area {
+    margin: 0 auto;
+}
